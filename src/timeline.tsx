@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { difference, intersection, each, omit, keys } from 'lodash';
 import type { CustomTime, SelectionOptions, TimelineEventsHandlers, TimelineEventsWithMissing } from './models';
 import { DateType, IdType, Timeline as VisTimeline, TimelineGroup, TimelineItem, TimelineOptions } from 'vis-timeline';
-import 'vis-timeline/styles/vis-timeline-graph2d.min.css';
 
 const events: TimelineEventsWithMissing[] = [
 	'currentTimeTick',
